@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer, nav, aside, section, div {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin:15px ;
+}
+
+.align-btn { 
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+}
+
+header {
+    display: flex;
+    justify-content:center;
+    margin-bottom: 20px;
+}
+
