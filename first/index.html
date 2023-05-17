@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <title>Rescue Helmet</title>
+    </head>
+    <body>
+        <header>
+            <a href="#" id="logo1"></a>
+            <a href="#" id="logo2"></a>
+            <a href="#" id="notifications"></a>          
+        </header>  
+
+
+        <div id="navbar">
+            <span class="selected"><a href="#">Home</a></span>
+            <a href="#">Active events</a>
+            <a href="#">Ended events</a>
+            <a href="#">On-Call crews</a>
+            <a href="newEvent.html">New event</a>
+        </div>
+
+        <div id="wrapper">
+            <a href="#">Active events</a>
+            <a href="newEvent.html" class="new">+</a>
+            <div id="events">
+                <section class="event">
+                    <a href="event.html?eventId=1" target="_blank">
+                        <img src="images/carAcc.jpg" alt="Car accident" title="Car accident"/>
+                        <p>
+                            <b>Event:</b><br>Car accident<br>
+                            <b>location:</b><br>Weizman street, Ness Ziona<br>
+                            <b>Crew:</b><br>Ronen
+                        </p>
+                    </a>
+                </section>
+                
+                <section class="event">
+                    <a href="event.html?eventId=2">
+                        <img src="images/factoryF1.jpg" alt="Fire" title="Fire"/>
+                        <p>
+                            <b>Event:</b><br>Fire in residential building<br>
+                            <b>location:</b><br>Herzel 12, Rehovot<br>
+                            <b>Crew:</b><br>David
+                        </p>
+                    </a>
+                </section>
+            </div>
+
+            <a href="#">Ended events</a>
+            <div id="events">
+                <section class="event">
+                    <a href="event.html?eventId=3">
+                        <img src="images/gasLeak.jpg" alt="Fire" title="Fire"/>
+                        <p>
+                            <b>Event:</b><br>Fire in residential building<br>
+                            <b>location:</b><br>Herzel 12, Rehovot<br>
+                            <b>Crew:</b><br>David
+                        </p>
+                    </a>
+                </section>
+                
+                <section class="event">
+                    <a href="event.html?eventId=4">
+                        <img src="images/elevator.jpg" alt="Rescue from an elevator" title="Rescue from an elevator"/>
+                        <p>
+                            <b>Event:</b><br>Rescue from an elevator<br>
+                            <b>location:</b><br>Herzel 88, Kiryat Ekron<br>
+                            <b>Crew:</b><br>Omer
+                        </p>
+                    </a>
+                </section>
+
+                <section class="event">
+                    <a href="event.html?eventId=5">
+                        <img src="images/flooding.jpg" alt="Flooding" title="flooding"/>
+                        <p>
+                            <b>Event:</b><br>Flooding<br>
+                            <b>location:</b><br>Rothschild street, Ashdod<br>
+                            <b>Crew:</b><br>David
+                        </p>
+                    </a>
+                </section>
+
+                <section class="event">
+                    <a href="event.html?eventId=6">
+                        <img src="images/Hrescue.jpg" alt="Rescue from a roof" title="Rescue from a roof"/>
+                        <p>
+                            <b>Event:</b><br>Rescue from a roof<br>
+                            <b>location:</b><br>Ben-Yehuda 53, Rehovot<br>
+                            <b>Crew:</b><br>David
+                        </p>
+                    </a>
+                </section>
+            </div>
+            <footer></footer>
+        </div>
+    </body>
+</html>
