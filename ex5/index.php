@@ -1,7 +1,5 @@
 <?php
     include 'db.php';
-    // include 'config.php';
-
     
     if(!(isset($_GET["category"])) Or $_GET["category"] === '"All"') {
         $query = "SELECT * FROM tbl_80_books order by name";       

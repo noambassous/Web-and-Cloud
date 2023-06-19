@@ -1,6 +1,5 @@
 <?php
     include 'db.php';
-    // include 'config.php';
 
     $bookId = $_GET["book_id"];
     $query = "SELECT * FROM tbl_80_books WHERE book_id =" . $bookId;
