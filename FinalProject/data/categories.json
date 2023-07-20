@@ -1,0 +1,17 @@
+{
+    "event_type": [
+        "All",
+        "Fire",
+        "Car accident",
+        "Rescue",
+        "Earthquake"
+    ],
+
+    "building_type": [
+        "private house", 
+        "building",
+        "open area",
+        "factory",
+        "car"
+    ]
+}
